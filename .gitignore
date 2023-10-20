@@ -130,3 +130,16 @@ dmypy.json
 
 # macOS files
 .DS_Store
+
+
+# Ignore files with "Unmerged paths"
+both\ added:*/
+
+# Ignore files with "Changes not staged for commit"
+(use\ "git\ add/rm\ <file>..."*/
+
+# Ignore files with "Untracked files"
+(use\ "git\ add\ <file>...*/
+
+# Ignore "Untracked content in submodules"
+../../dsc-*/
